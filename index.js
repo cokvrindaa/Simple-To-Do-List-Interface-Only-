@@ -22,13 +22,14 @@ function tampil() {
     edit.innerHTML = "Edit";
     //tailwind class
     tomhapus.className =
-      "tomhapus shadow-lg h-8 w-20 hover:bg-red-500 rounded-lg m-1";
+      "tomhapus shadow-lg h-8 w-20 hover:bg-red-500 rounded-lg m-1 dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300";
     donebutton.className =
-      "done shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg m-1";
+      "done shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg m-1 dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300";
     edit.className =
-      "edit shadow-lg h-8 w-20 hover:bg-yellow-500 rounded-lg m-1";
+      "edit shadow-lg h-8 w-20 hover:bg-yellow-500 rounded-lg m-1 dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300";
     divarea.className = "divarea mx-2.5";
-    paragraf.className = "mx-1 mt-4";
+    paragraf.className = "mx-1 mt-4 dark:text-white";
+
     //menampilkan dengan funsi append
     divarea.append(paragraf);
     divarea.append(tomhapus);
@@ -60,8 +61,10 @@ function tampil() {
       edittextbox.value = paragraf.innerText;
       okeditbutton.innerHTML = "OK";
       //classs
-      edittextbox.className = "edittextbox shadow-md p-1  focus:ring-1 focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-lg";
-      okeditbutton.className = "okeditbutton shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg";
+      edittextbox.className =
+        "edittextbox shadow-md p-1  focus:ring-1 focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-md rounded-lg dark:text-black";
+      okeditbutton.className =
+        "okeditbutton shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300 dark:text-black mx-1";
       //
       paragraf.innerHTML = "";
       paragraf.appendChild(edittextbox);
@@ -81,8 +84,8 @@ function tampil() {
         this.setAttribute("done", true); // Mark this button as done
         console.log("Done value per paragraf:", donevalue);
         donetext.innerHTML = "Done List: " + donevalue;
-        donetext.className = "mx-2.5"
-        paragraf.className = "mx-1 mt-4 text-green-700 font-bold"
+        donetext.className = "mx-2.5 dark:text-white";
+        paragraf.className = "mx-1 mt-4 text-green-700 font-bold";
       }
     };
     //

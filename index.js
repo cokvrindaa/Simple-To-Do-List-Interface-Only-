@@ -64,7 +64,7 @@ function tampil() {
       edittextbox.className =
         "edittextbox shadow-md p-1  focus:ring-1 focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-md rounded-lg dark:text-black";
       okeditbutton.className =
-        "okeditbutton shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300 dark:text-black mx-1";
+        "okeditbutton shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300 dark:text-black mx-0.5";
       //
       paragraf.innerHTML = "";
       paragraf.appendChild(edittextbox);

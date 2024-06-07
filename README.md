@@ -12,6 +12,8 @@
 - 🧑‍💻 Teknologi yang di pakai **Html, Tailwindcss, Pure javascript**
 
 - 👁️ Link Preview https://supersimpletodolist.netlify.app/
+
+- 🤡 masih belum belajar puh **gw pake chat gpt untuk bantuan local storagenya untuk di projek ini (07/05/24). Mungkin di projek ke depan gw coding local storagenya mandiri.**
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.youtube.com/@ohtheneptune/featured" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="ohtheneputne" height="30" width="40" /></a>

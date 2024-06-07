@@ -41,20 +41,14 @@ function tampil(done = false) {
     edit.innerHTML = "Edit";
 
     tomhapus.className =
-      "tomhapus shadow-lg h-8 w-20 hover:bg-red-500 rounded-lg m-1 dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300";
+      "tomhapus shadow-lg h-8 w-20 hover:bg-red-500 rounded-lg m-1";
     donebutton.className =
-      "done shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg m-1 dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300";
+      "done shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg m-1";
     edit.className =
-      "edit shadow-lg h-8 w-20 hover:bg-yellow-500 rounded-lg m-1 dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300";
+      "edit shadow-lg h-8 w-20 hover:bg-yellow-500 rounded-lg m-1";
     divarea.className = "divarea mx-2.5";
-<<<<<<< HEAD
     paragraf.className = "mx-1 mt-4";
 
-=======
-    paragraf.className = "mx-1 mt-4 dark:text-white";
-
-    //menampilkan dengan funsi append
->>>>>>> 75fcb7991dc56798ab3bf038a781de8b7fb79d7b
     divarea.append(paragraf);
     divarea.append(tomhapus);
     divarea.append(donebutton);
@@ -86,20 +80,11 @@ function tampil(done = false) {
 
       edittextbox.value = paragraf.innerText;
       okeditbutton.innerHTML = "OK";
-<<<<<<< HEAD
       edittextbox.className =
         "edittextbox shadow-md p-1 focus:ring-1 focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-lg";
       okeditbutton.className =
         "okeditbutton shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg";
 
-=======
-      //classs
-      edittextbox.className =
-        "edittextbox shadow-md p-1  focus:ring-1 focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-md rounded-lg dark:text-black";
-      okeditbutton.className =
-        "okeditbutton shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg dark:border  dark:bg-white dark:shadow-md dark:shadow-slate-300 dark:text-black mx-0.5";
-      //
->>>>>>> 75fcb7991dc56798ab3bf038a781de8b7fb79d7b
       paragraf.innerHTML = "";
       paragraf.appendChild(edittextbox);
       paragraf.appendChild(okeditbutton);
@@ -119,12 +104,7 @@ function tampil(done = false) {
         this.setAttribute("done", true);
         paragraf.className = "mx-1 mt-4 text-green-700 font-bold";
         donetext.innerHTML = "Done List: " + donevalue;
-<<<<<<< HEAD
         saveTodos();
-=======
-        donetext.className = "mx-2.5 dark:text-white";
-        paragraf.className = "mx-1 mt-4 text-green-700 font-bold";
->>>>>>> 75fcb7991dc56798ab3bf038a781de8b7fb79d7b
       }
     };
 

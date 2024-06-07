@@ -3,7 +3,7 @@
 </h1>
 <h3 align="center">Super Simple To Do List.</h3>
 
-- 🔭 Fungsi? **Untuk mengingatkan kalian hal yang kalian lakukan pada hari itu (walau ga bisa di save :v)**
+- 🔭 Fungsi? **Untuk mengingatkan kalian hal yang kalian lakukan pada hari itu **
 
 - 💲 Lisensi **Pakai sepuasnya hehe**
 

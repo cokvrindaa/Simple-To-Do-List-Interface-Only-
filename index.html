@@ -7,25 +7,25 @@
     <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div class="container shadow-lg m-auto p-5 rounded-lg" id="box">
-      <h1 class="text font-bold text-4xl text-center mb-3">To Do List</h1>
+  <body class="dark:bg-slate-950">
+    <div class="container shadow-lg m-auto p-5 rounded-lg dark:shadow-md dark:shadow-slate-300" id="box">
+      <h1 class="text font-bold text-4xl text-center mb-3 dark:text-white ">To Do List</h1>
       <p id="donetext"></p>
       <input
         type="text"
         id="inadd"
         placeholder="Aku akan melakukan..."
-        class="w-2/3 shadow-md p-1 mx-2.5 focus:ring-1 focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-lg sm:w-5/6 sm:mx-0 lg:w-[880px] xl:w-[1100px] 2xl:w-[1400px]"
+        class="w-2/3 shadow-md p-1 mx-2.5 focus:ring-1 rounded-md focus:border-sky-600 focus:outline-none focus:rounded-md placeholder:px-1 invalid:text-red-600 invalid:focus:ring-red-600 peer dark:shadow-slate-300 dark:shadow-md sm:w-5/6 sm:mx-0 lg:w-[880px] xl:w-[1100px] 2xl:w-[1400px] "
       />
       <button
         id="add"
         onclick="tampil()"
-        class="shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg"
+        class="shadow-lg h-8 w-20 hover:bg-green-500 rounded-lg dark:border   dark:bg-white dark:shadow-md dark:shadow-slate-300 "
       >
         Add
       </button>
     </div>
-    <p class="text-center text-sm mt-4">By @cokvrindaa at github</p>
+    <p class="text-center text-sm mt-4 dark:text-white ">By @cokvrindaa at github</p>
     <script src="index.js"></script>
   </body>
 </html>
